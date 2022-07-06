@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "740910621884",
+    "firebase_url": "https://chatappkotlin-efb26-default-rtdb.firebaseio.com",
+    "project_id": "chatappkotlin-efb26",
+    "storage_bucket": "chatappkotlin-efb26.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:740910621884:android:2b102a6d66fffd64341cb9",
+        "android_client_info": {
+          "package_name": "com.example.stremchatsdk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "740910621884-176i0md0e09n70r9st7v7egkaqseovgq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqFbo6W6dqwuVHHbWuIZiyQegw4Gy53Tg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "740910621884-176i0md0e09n70r9st7v7egkaqseovgq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

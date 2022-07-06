@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">StremchatSdk</string>
+    <string name="chat_app">Chat App</string>
+    <string name="readble_and_fast">Readble and Fast</string>
+    <string name="singup">Sing Up</string>
+
+    <string name="name">Name</string>
+    <string name="password">Password</string>
+    <string name="Login">Log In</string>
+    <string name="signIn">Sign In</string>
+    <string name="email">Email</string>
+    <string name="dhanush">Dhanush</string>
+</resources>
