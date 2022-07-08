@@ -21,12 +21,16 @@ class Login : AppCompatActivity() {
         setContentView(view)
         fAuth = FirebaseAuth.getInstance()
 
+
         binding.btSignUp.setOnClickListener {
+
+
             val intent = Intent(this, SingUp::class.java)
             startActivity(intent)
         }
 
         binding.btLogin.setOnClickListener {
+
             if (binding.etUserName.text.toString() == "" || binding.etUserPassword.text.toString() == "") {
                 if (binding.etUserName.text.toString() == "") {
                     binding.etUserName.error = "Please Enter the Email .."
@@ -56,6 +60,7 @@ class Login : AppCompatActivity() {
                 .addOnCompleteListener(this) { task ->
                     if (task.isSuccessful) {
                         val intent = Intent(this, MainActivity::class.java)
+                       finish()
                         startActivity(intent)
                     } else {
                         Toast.makeText(this, "USer DoesNot Exist ", Toast.LENGTH_SHORT).show()

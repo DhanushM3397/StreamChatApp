@@ -31,7 +31,6 @@ class SingUp : AppCompatActivity() {
             val password = binding.SignUserPassword.text?.toString()!!
             val name= binding.SignUserName.text?.toString()!!
              Toast.makeText(this,"User name is $name,User password is $password,User Email  is $email",Toast.LENGTH_SHORT).show()
-            Toast.makeText(this,"User name is $name,User password is $password,User Email  is $email",Toast.LENGTH_SHORT).show()
 
             singup(name ,email, password)
         }
@@ -51,6 +50,7 @@ class SingUp : AppCompatActivity() {
                     // Code For Jumping to Home
 
                     val intent = Intent(this, MainActivity::class.java)
+                    finish()
                     startActivity(intent)
 
 
